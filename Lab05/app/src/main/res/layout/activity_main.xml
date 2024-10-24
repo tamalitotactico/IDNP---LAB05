@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/btnItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_image"
+            android:src="@drawable/arequipa"
+            android:contentDescription="Imagen Redonda"
+            android:clipToOutline="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arequipa"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_image"
+            android:src="@drawable/yanahuara"
+            android:contentDescription="Imagen Redonda"
+            android:clipToOutline="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yanahuara"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+        />
+
+    </LinearLayout>
+</LinearLayout>
